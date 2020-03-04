@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  font-size: 8px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0.5rem;
+}
+
+table {
+  /* empty-cells: hide; */
+}
+
+td {
+  border: 1px solid black;
+  width: 50px;
+  border-radius: 2px;
+}
