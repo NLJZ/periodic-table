@@ -17,15 +17,16 @@ h2 {
 table {
   empty-cells: hide;
   width: 100%;
+  border-spacing: 4px;
 }
 
 td {
-  border: 1px solid black;
-  width: 10%;
+  width: 5.5%;
   border-radius: 2px;
   text-align: center;
   margin: 5px;
   padding: 5px;
+  font-size: 0.8rem;
 }
 
 tr:nth-child(1),
@@ -40,14 +41,14 @@ tr:nth-child(4),
 tr:nth-child(5),
 tr:nth-child(6),
 tr:nth-child(7) {
-  background-color: green;
+  background-color: rgb(81, 148, 81);
 }
 
 tr:nth-child(2) td:nth-child(8),
 tr:nth-child(3) td:nth-child(8),
 tr:nth-child(n + 4) td:nth-child(17),
 tr:nth-child(7) td:nth-child(15) {
-  background-color: salmon;
+  background-color: rgb(255, 171, 162);
 }
 
 tr:nth-child(2) td:nth-child(4),
@@ -63,7 +64,7 @@ tr:nth-child(4) td:nth-child(15),
 tr:nth-child(5) td:nth-child(15),
 tr:nth-child(5) td:nth-child(16),
 tr:nth-child(6) td:nth-child(16) {
-  background-color: hotpink;
+  background-color: rgb(255, 162, 209);
 }
 
 tr:nth-child(n + 2) td:nth-child(2),
@@ -81,7 +82,7 @@ tr:nth-child(n + 2) td:first-child,
 tr:last-child td:nth-child(n + 1),
 tr:nth-child(7) td:nth-child(3),
 tr:nth-child(7) td:nth-child(17) {
-  background-color: rgb(0, 204, 255);
+  background-color: rgb(96, 215, 245);
 }
 
 tr:nth-child(8) td:nth-child(n + 1),
