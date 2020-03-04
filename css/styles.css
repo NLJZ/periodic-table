@@ -15,11 +15,76 @@ h2 {
 }
 
 table {
-  /* empty-cells: hide; */
+  empty-cells: hide;
+  width: 100%;
 }
 
 td {
   border: 1px solid black;
-  width: 50px;
+  width: 10%;
   border-radius: 2px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+tr:nth-child(1),
+tr:nth-child(2),
+tr:nth-child(3) td:nth-child(6),
+tr:nth-child(3) td:nth-child(7),
+tr:nth-child(4) td:nth-child(16) {
+  background-color: rgb(255, 255, 50);
+}
+
+tr:nth-child(4),
+tr:nth-child(5),
+tr:nth-child(6),
+tr:nth-child(7) {
+  background-color: green;
+}
+
+tr:nth-child(2) td:nth-child(8),
+tr:nth-child(3) td:nth-child(8),
+tr:nth-child(n + 4) td:nth-child(17),
+tr:nth-child(7) td:nth-child(15) {
+  background-color: salmon;
+}
+
+tr:nth-child(2) td:nth-child(4),
+tr:nth-child(-n + 6) td:last-child,
+tr:nth-child(7) td:nth-child(16) {
+  background-color: rgb(240, 179, 240);
+}
+
+tr:nth-child(2) td:nth-child(4),
+tr:nth-child(3) td:nth-child(5),
+tr:nth-child(4) td:nth-child(14),
+tr:nth-child(4) td:nth-child(15),
+tr:nth-child(5) td:nth-child(15),
+tr:nth-child(5) td:nth-child(16),
+tr:nth-child(6) td:nth-child(16) {
+  background-color: hotpink;
+}
+
+tr:nth-child(n + 2) td:nth-child(2),
+tr:nth-child(7) td:last-child {
+  background-color: pink;
+}
+tr:nth-child(n + 3) td:nth-last-child(6),
+tr:nth-child(5) td:nth-child(14),
+tr:nth-child(6) td:nth-child(14),
+tr:nth-child(7) td:nth-child(14) {
+  background-color: rgb(252, 214, 220);
+}
+
+tr:nth-child(n + 2) td:first-child,
+tr:last-child td:nth-child(n + 1),
+tr:nth-child(7) td:nth-child(3),
+tr:nth-child(7) td:nth-child(17) {
+  background-color: rgb(0, 204, 255);
+}
+
+tr:nth-child(8) td:nth-child(n + 1),
+tr:nth-child(6) td:nth-child(3) {
+  background-color: lightblue;
 }
